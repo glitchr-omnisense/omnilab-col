@@ -1,0 +1,42 @@
+{
+    "dataset-315557-taxon-4cgxp-info-0f9a8e7f.json": {
+        "url": "https://api.checklistbank.org/dataset/315557/taxon/4CGXP/info",
+        "status": 200
+    },
+    "dataset-3lxr-nameusage-search-q-delphinus-delphis-type-exact-limit-20-10da5f67.json": {
+        "url": "https://api.checklistbank.org/dataset/3LXR/nameusage/search?q=Delphinus delphis&type=EXACT&limit=20",
+        "status": 200
+    },
+    "dataset-3lxr-nameusage-search-q-nothingus-nowhereus-type-exact-limit-2-ab689eeb.json": {
+        "url": "https://api.checklistbank.org/dataset/3LXR/nameusage/search?q=Nothingus nowhereus&type=EXACT&limit=20",
+        "status": 200
+    },
+    "dataset-3lxr-nameusage-search-q-panthera-leo-limit-5-28bfd34c.json": {
+        "url": "https://api.checklistbank.org/dataset/3LXR/nameusage/search?q=Panthera leo&limit=5",
+        "status": 200
+    },
+    "dataset-3lxr-nameusage-search-q-panthera-leo-limit-5-offset-5-bc34569e.json": {
+        "url": "https://api.checklistbank.org/dataset/3LXR/nameusage/search?q=Panthera leo&limit=5&offset=5",
+        "status": 200
+    },
+    "dataset-3lxr-nameusage-search-q-panthera-leo-type-exact-limit-20-a196b1eb.json": {
+        "url": "https://api.checklistbank.org/dataset/3LXR/nameusage/search?q=Panthera leo&type=EXACT&limit=20",
+        "status": 200
+    },
+    "dataset-3lxr-taxon-34jwm-info-4e2de82c.json": {
+        "url": "https://api.checklistbank.org/dataset/3LXR/taxon/34JWM/info",
+        "status": 200
+    },
+    "dataset-3lxr-taxon-4cgxp-info-2a218eba.json": {
+        "url": "https://api.checklistbank.org/dataset/3LXR/taxon/4CGXP/info",
+        "status": 200
+    },
+    "dataset-3lxr-taxon-cfscr-info-47ffaf20.json": {
+        "url": "https://api.checklistbank.org/dataset/3LXR/taxon/CFSCR/info",
+        "status": 200
+    },
+    "dataset-3lxr-taxon-zzzzzz-info-ed76e0d6.json": {
+        "url": "https://api.checklistbank.org/dataset/3LXR/taxon/ZZZZZZ/info",
+        "status": 404
+    }
+}

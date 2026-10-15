@@ -1,0 +1,45 @@
+{
+    "name": "omnilab/col",
+    "type": "library",
+    "description": "Omnilab Catalogue of Life: a taxon or synonym of the Catalogue of Life by its COL id, by the GBIF key that names it (GBIF's taxonomy is the COL eXtended Release) or by its name - authority, rank, status, classification, vernacular names, distribution, scrutinizer, source record; its GBIF key and the iNaturalist, WoRMS or ITIS records COL names as cross-references; parent, accepted name and synonyms related - and a search of names, through ChecklistBank's API, no key needed.",
+    "keywords": [
+        "science",
+        "biodiversity",
+        "taxonomy",
+        "catalogue-of-life",
+        "checklistbank",
+        "gbif",
+        "omnilab"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnilab": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnilab\\Col\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnilab\\Col\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
