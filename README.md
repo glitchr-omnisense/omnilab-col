@@ -1,7 +1,7 @@
 # omnilab/col
 
 The Catalogue of Life, through ChecklistBank, for
-[omniscient/omnilab](https://github.com/glitchr-studio/omnilab): a taxon or a synonym by its COL id,
+[omnisense/omnilab](https://github.com/glitchr-omnisense/omnilab): a taxon or a synonym by its COL id,
 by the GBIF key that names it, or by its name - its authority, rank, status, classification,
 group, vernacular names, distribution, place of publication, the scrutinizer who checked it and
 the source record it comes from; its GBIF key and the iNaturalist, WoRMS and ITIS records COL
