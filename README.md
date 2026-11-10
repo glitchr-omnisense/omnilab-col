@@ -56,6 +56,17 @@ names the record a taxon was taken from). ChecklistBank's API needs no key to re
 
 See [docs/](docs/index.md) for what is read, how it maps, and what COL does not give here.
 
+## Usage policy
+
+Declared as data in [`policy.json`](policy.json) (read at https://api.checklistbank.org/ on 2026-11-10), and honoured on every request by the
+core: a limit reached waits when its window ends within `max_wait` seconds, else the request is not
+sent ([Usage policies](https://github.com/glitchr-omnisense/omnilab/blob/1.x/docs/policies.md)).
+
+- Limits: not published (unknown).
+- Licence: CC-BY-4.0; commercial use: allowed.
+- Credit: required: Bánki, O., Roskov, Y., Döring, M., et al. (2026). Catalogue of Life (2026-10-16 XR). Catalogue of Life Foundation, Amsterdam, Netherlands. https://doi.org/10.48580/dgzlf (https://www.catalogueoflife.org).
+- Needs: nothing.
+
 ## Responsibility
 
 This package is an independent, unofficial client: it is not affiliated with, endorsed by or

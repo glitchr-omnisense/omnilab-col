@@ -1,0 +1,40 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "col",
+    "rateLimits": null,
+    "concurrency": null,
+    "rights": {
+        "commercial": "allowed",
+        "openSourceRequired": null,
+        "caching": {
+            "permission": "allowed",
+            "maxTtl": null
+        },
+        "storage": "allowed",
+        "redistribution": "allowed",
+        "attribution": {
+            "required": true,
+            "text": "Bánki, O., Roskov, Y., Döring, M., et al. (2026). Catalogue of Life (2026-10-16 XR). Catalogue of Life Foundation, Amsterdam, Netherlands. https://doi.org/10.48580/dgzlf",
+            "url": "https://www.catalogueoflife.org",
+            "where": [
+                "source"
+            ]
+        },
+        "licence": "CC-BY-4.0"
+    },
+    "requirements": {
+        "key": false,
+        "userAgent": {
+            "required": false,
+            "pattern": null
+        }
+    },
+    "provenance": {
+        "terms": "https://api.checklistbank.org/dataset/3LXR",
+        "policy": "https://api.checklistbank.org/",
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": "support@catalogueoflife.org",
+        "notes": "ChecklistBank API description (api.checklistbank.org/openapi) read 2026-11-10: no rate or usage rule stated; API still in development; questions on the col-users mailing list (API contact mdoering@gbif.org). The release metadata (dataset 3LXR, 2026-10-16 XR, read 2026-11-10) gives the licence CC BY and the release citation with its DOI, which changes with each monthly release; the source datasets are to be credited too (source_record). www.catalogueoflife.org/about/citing answered 403/404 to automated reads and was not re-read. No rate-limit headers seen on a test call."
+    }
+}
