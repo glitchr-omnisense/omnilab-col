@@ -29,6 +29,34 @@ omnilab:
                 language: eng                  # the vernacular names put first
 ```
 
+## Install and a first call
+
+```sh
+composer require omnilab/col
+```
+
+A real call, with no account and no key: the lion in the Catalogue of Life. `mailto` is your
+address, sent in the User-Agent so that the service can reach you before it blocks a caller; the
+source keeps to the limits its [`policy.json`](policy.json) declares.
+
+```php
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+use Omnilab\Col\ColSourceFactory;
+
+$col = (new ColSourceFactory())->create(['mailto' => 'you@example.org']);   // your address, in the User-Agent
+$lion = $col->entity('4CGXP');
+echo $lion->label, ': ', implode(', ', $lion->identifiers()->keys()), "\n";
+```
+
+Its output on 2026-11-13:
+
+```
+Panthera leo: col:4CGXP, gbif:4CGXP, inaturalist:41964, itis:183803
+```
+
 ## The Catalogue of Life and GBIF
 
 Since 23 June 2026 GBIF's taxonomy is the Catalogue of Life eXtended Release, and **a GBIF key is
